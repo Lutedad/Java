@@ -1,15 +1,10 @@
 package chap_02;
-
+// 키가 115cm 이므로 탑승 불가능합니다
+// 키가 121cm 이므로 탑승 가능합니다
 public class _Quiz_02 {
     public static void main(String[] args) {
-        int height = 120;
-        int height_2 = 110;
-
-
-        String msg = (height >= 120) ? "탑승이 가능합니다" : "탑승 불가요~";
-        System.out.println(msg); 
-
-        String msg_2 = (height_2 >= 120) ? "탑승이 가능합니다" : "탑승 불가요~";
-        System.out.println(msg_2); 
+        int height = 121;
+        String result = (height >= 120) ? "탑승 가능합니다" : "탑승 불가능합니다";
+        System.out.println("키가 " + height + "cm 이므로 " + result);
     }
 }
