@@ -1,8 +1,5 @@
 package com.lutedad.java_diary;
 
-import static com.lutedad.java_diary.Day_Calculate.date;
-import static com.lutedad.java_diary.Day_Calculate.time;
-
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -15,9 +12,6 @@ import static org.junit.Assert.*;
 public class ExampleUnitTest {
     @Test
     public void addition_isCorrect() {
-
-        System.out.println(Day_Calculate.date);
-        System.out.println(Day_Calculate.time);
     }
 }
 //API 3d733f19502d473e4292187f01a389f7
