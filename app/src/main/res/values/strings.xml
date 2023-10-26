@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Java_Diary</string>
+    <string name="date_string">MM/DD</string>
+    <string name="time">%s</string>
+</resources>

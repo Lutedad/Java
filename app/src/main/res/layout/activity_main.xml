@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Weather"
+        android:fontFamily="@font/suite_bold"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:id="@+id/weather"/>
+    <TextClock
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="MM/DD"
+        android:format12Hour="EE, dd"
+        android:fontFamily="@font/suite_semibold"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:id="@+id/time"/>
+    <TextClock
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="HH/MM"
+        android:format12Hour="hh:mm"
+        android:fontFamily="@font/suite_semibold"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:id="@+id/date"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
